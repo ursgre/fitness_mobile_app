@@ -44,8 +44,8 @@
 .text {
     font-size: 20px;
     font-weight: 600;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-align: left;
 }
 .text-uppercase {
@@ -59,4 +59,9 @@ a {
     border-top-right-radius:25px;
     border-top-left-radius:25px;
     height: 60px;
+}
+.line {
+    padding-left: 40px;
+    width: 200px;
+    border-bottom: 1px solid #000000;
 }
