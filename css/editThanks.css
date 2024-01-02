@@ -1,0 +1,107 @@
+.phone {
+    background-color: #0b0b12;
+    align-content: flex-start;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 60px; /* Adjust this value to bring the profile pic closer */
+}
+
+.info-container {
+    margin-left: 10px; /* Adjust this value to create space between pic and text */
+    text-align: left;
+}
+
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 0px 40px;
+    padding: 10px 20px 10px 20px;
+}
+.image {
+    padding-left: 16px;
+}
+.item-container {
+    display: flex;
+    align-items: center;
+}
+.text-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+a {
+    text-decoration: none; 
+}
+.navbar {
+    background-color: rgb(0, 168, 197);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 60px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 30px; /* Adjust this value as needed */
+    height: 30px; /* Adjust this value as needed */
+    display: block;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.input-field::placeholder {
+    /* Increase the padding to create more height for the placeholder text */
+    padding-top: 8px; /* Adjust this value as needed */
+    padding-bottom: 8px; /* Adjust this value as needed */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(0, 168, 197);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

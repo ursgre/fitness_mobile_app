@@ -13,15 +13,23 @@
 <body>
     <div class="phone">
         <div class="navbar">
-            <div class="text">Logowanie</div>
+            <div class="text">Rejestracja</div>
         </div>
         <div class="container">
+            <div class="text">Imię:</div>
+            <input type="text" placeholder="Name" class="input-field">
+            <div class="text">Nazwisko:</div>
+            <input type="text" placeholder="Last Name" class="input-field">
             <div class="text">E-mail:</div>
             <input type="email" placeholder="Email" class="input-field">
             <div class="text">Hasło:</div>
             <input type="password" placeholder="Password" class="input-field">
-            <button class="button" onclick="redirectToHome()">ZALOGUJ SIĘ</button>
-            <p>Nie masz jeszcze konta? <a href="register.html">Zarejestruj się</a></p>
+            <div class="text">Waga:</div>
+            <input type="text" placeholder="Weight" class="input-field">
+            <div class="text">Wzrost:</div>
+            <input type="text" placeholder="Height" class="input-field">
+            <button class="button" onclick="redirectToLogin()">ZAREJESTRUJ SIĘ</button>
+            <p>Masz już konto? <a href="login.html">Zaloguj się</a></p>
         </div>
     </div>
 </body>
