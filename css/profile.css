@@ -11,9 +11,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 60px; /* Adjust this value to bring the profile pic closer */
 }
+
 .info-container {
-    margin-left: 20px;
+    margin-left: 10px; /* Adjust this value to create space between pic and text */
     text-align: left;
 }
 .text-top {
