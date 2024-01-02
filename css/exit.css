@@ -1,0 +1,6 @@
+.center-image {
+    width: 200px; /* Dopasuj szerokość zdjęcia do odpowiednich wymiarów */
+    height: auto; /* Ustal proporcjonalną wysokość zdjęcia */
+    margin-bottom: 20px;
+    margin-left: 10px; /* Dodatkowy margines na spacje między zdjęciem a tekstem */
+}
