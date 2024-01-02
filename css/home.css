@@ -1,0 +1,56 @@
+.phone {
+    background-color: #0b0b12;
+    align-content: flex-start;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info-container {
+    margin-left: 20px;
+    text-align: left;
+}
+.text-top {
+    font-size: 14px;
+    font-weight: 500;
+}
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 0px 40px;
+    padding: 10px 20px 10px 20px;
+}
+.text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.close-button:hover {
+    cursor: pointer;
+}
+.image {
+    padding-left: 16px;
+}
+.item-container {
+    display: flex;
+    align-items: center;
+}
+.text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none; 
+}
