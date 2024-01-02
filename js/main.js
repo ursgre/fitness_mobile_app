@@ -37,3 +37,8 @@ function change_content(id, numberOfLoops, forgotPasswordPage, changeContentAlig
     
     document.getElementById(id).remove="hidden";
 }
+
+function redirectToProfile() {
+    window.location.href = "profile.html";
+}
+
