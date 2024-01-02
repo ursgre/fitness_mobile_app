@@ -79,18 +79,22 @@ a {
     width: 25px;
     height: 25px;
 }
-.edit-container {
+.info-boxes-container {
     display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px 0px 40px;
+    padding: 10px 20px 10px 20px;
+}
+.choose-box {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-start;
-    margin-left: 40px; /* Adjust the margin as needed */
-}
-
-.edit-container .text {
-    margin-right: 10px; /* Adjust the spacing between the text and image */
-}
-
-.edit-container .image {
-    width: 20px; /* Adjust the image width */
-    height: 20px; /* Adjust the image height */
+    margin-top: 10px;
 }
