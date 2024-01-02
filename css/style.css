@@ -7,11 +7,11 @@
     width: 375px;
     height: 812px;
     align-items: center;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(226, 226, 226);
 }
 body {
     display: flex;
-    background: #000000;
+    background: #444444;
     justify-content: center;
     margin: 0;
     padding: 3em;
