@@ -19,7 +19,7 @@
     text-align: left;
 }
 .text-top {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 500;
 }
 .boxes-container {
@@ -27,11 +27,6 @@
     flex-direction: column;
     margin: 20px 40px 0px 40px;
     padding: 10px 20px 10px 20px;
-}
-.text {
-    text-align: center;
-    font-size: 10px;
-    font-weight: 600;
 }
 .image {
     padding-left: 16px;
@@ -42,6 +37,13 @@
 }
 .text {
     font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.text-name {
+    font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
