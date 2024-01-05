@@ -80,18 +80,21 @@ a {
     width: 25px;
     height: 25px;
 }
+
 .edit-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin-left: 40px; /* Adjust the margin as needed */
+    justify-content: space-between; /* Ustawienie odstępu między elementami */
+    margin-left: 40px; /* Dostosuj margines według potrzeb */
+    margin-right: 40px; /* Dodatkowy margines na końcu */
 }
 
 .edit-container .text {
-    margin-right: 10px; /* Adjust the spacing between the text and image */
+    margin-right: auto; /* Tekst jest na lewej stronie */
 }
 
 .edit-container .image {
-    width: 20px; /* Adjust the image width */
-    height: 20px; /* Adjust the image height */
+    width: 20px; /* Dostosuj szerokość obrazka */
+    height: 20px; /* Dostosuj wysokość obrazka */
+    margin-left: 10px; /* Dostosuj odstęp między tekstem a obrazkiem */
 }
