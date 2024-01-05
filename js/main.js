@@ -15,7 +15,7 @@ function redirectToLogin() {
 // Pobranie elementu canvas
 const ctx = document.getElementById('weightChart').getContext('2d');
 
-// Dane do wykresu
+// Dane do wykresu miesięcznie
 const data = {
     labels: ['Tydzień 1', 'Tydzień 2', 'Tydzień 3', 'Tydzień 4'],
     datasets: [{

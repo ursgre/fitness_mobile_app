@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Fitness Mobile App</title>
-    <script src="../js/main.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="../css/weightControl.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,27 +18,29 @@
                 </div>
             </a>        
         </div>
-        <h2>Miesięcznie</h2>
-        <div class="chart-container">
-            <canvas id="weightChart"></canvas>
+        <h2>Kontrola wagi</h2>
+        <div>
+            <a href="weightControlMonth.html" class="link-container">
+                <div class="text text-uppercase">Tygodniowo</div>
+                <div class="arrow-container">
+                    <img src="../images/arrow.png">
+                </div>
+            </a>
+            <div class="line"></div>
+            <a href="weightControlMonth.html" class="link-container">
+                <div class="text text-uppercase">Miesięcznie</div>
+                <div class="arrow-container">
+                    <img src="../images/arrow.png">
+                </div>
+            </a>
+            <div class="line"></div>
+            <a href="weightControlMonth.html" class="link-container">
+                <div class="text text-uppercase">Rocznie</div>
+                <div class="arrow-container">
+                    <img src="../images/arrow.png">
+                </div>
+            </a>
         </div>
-        <div class="weight-info">
-            <ul>
-                <li class="custom-margin-bottom">Waga początkowa: 70 kg</li>
-                <div class="line custom-line-margin"></div>
-                <li class="custom-margin-bottom">
-                    <a href="editWeight.html">
-                        <div class="edit-container">
-                             Obecna waga: 65kg
-                            <img src="../images/edit.png" class="image">
-                        </div>
-                    </a>
-                </li>
-                <div class="line custom-line-margin"></div>
-                <li class="custom-margin-bottom">Postęp: -5kg</li>
-            </ul>
-        </div>
-       
     </div>
 </body>
 </html>
