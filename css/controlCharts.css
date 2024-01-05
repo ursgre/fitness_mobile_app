@@ -23,14 +23,6 @@
     height: 25px;
 }
 
-.text {
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .line {
     padding-left: 40px;
     width: 200px;
@@ -67,4 +59,12 @@ a {
 
 .image {
     padding-left: 16px;
+}
+
+.text {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
 }
