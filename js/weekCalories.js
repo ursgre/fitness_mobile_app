@@ -7,8 +7,8 @@ const dataWeeklyCalories = {
     datasets: [{
         label: 'Spalone kalorie',
         data: [250, 300, 280, 320, 270, 310, 290], // Dane spalonych kalorii dla kolejnych dni w tygodniu
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgba(255, 99, 132, 1)',
         borderWidth: 1,
         fill: false // To display only the line without background fill
     }]
