@@ -27,7 +27,6 @@
     
 }
 
-
 .gratitude-message {
     text-align: center;
 }
@@ -35,4 +34,11 @@
 .gratitude-message p {
     font-family: 'Poppins', sans-serif;
     /* Any additional styles for the text */
+}
+
+.image {
+    width: 200px; /* Dopasuj szerokość zdjęcia do odpowiednich wymiarów */
+    height: auto; /* Ustal proporcjonalną wysokość zdjęcia */
+    margin-bottom: 20px;
+    margin-left: 20px; /* Dodatkowy margines na spacje między zdjęciem a tekstem */
 }
