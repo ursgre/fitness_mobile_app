@@ -46,6 +46,7 @@ a {
     align-items: center;
     justify-content: space-between; /* Równomierne rozłożenie elementów w kontenerze */
     padding-right: 40px; /* Dodatkowy margines z prawej strony */
+    
 }
 
 .arrow-container {
@@ -60,4 +61,5 @@ a {
 .small-image {
     width: 250px;
     height: 250px;
+    margin-bottom: 20px;
 }
