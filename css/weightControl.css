@@ -43,11 +43,12 @@
 .custom-line-margin {
     margin-bottom: 20px;
 }
+
 .edit-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 40px; /* Adjust the margin as needed */
+    margin-left: 1px; /* Adjust the margin as needed */
 }
 
 .edit-container .text {
@@ -58,6 +59,7 @@
     width: 20px; /* Adjust the image width */
     height: 20px; /* Adjust the image height */
 }
+
 .image {
     padding-left: 16px;
 }
