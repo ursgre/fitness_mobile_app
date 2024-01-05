@@ -1,5 +1,4 @@
 .phone {
-    background-color: #0b0b12;
     align-content: flex-start;
 }
 .profile-pic {
@@ -59,7 +58,7 @@ a {
 }
 .line {
     padding-left: 40px;
-    width: 200px;
+    width: 250px;
     border-bottom: 1px solid #000000;
 }
 .image {
