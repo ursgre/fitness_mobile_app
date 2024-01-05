@@ -7,8 +7,8 @@ const dataYearlyPulse = {
     datasets: [{
         label: 'Najwyższe tętno',
         data: [90, 120, 100, 90, 95, 110, 105, 100, 98, 105, 115, 105], // Dane najwyższego tętna dla poszczególnych miesięcy
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
         borderWidth: 1,
         fill: false // Aby wyświetlić tylko linię bez wypełnienia tła
     }]
