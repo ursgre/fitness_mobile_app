@@ -1,0 +1,38 @@
+.phone {
+    align-content: flex-start;
+}
+
+.navbar {
+    background-color: rgb(0, 168, 197);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 60px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.gratitude-message {
+    text-align: center;
+}
+
+.gratitude-message p {
+    font-family: 'Poppins', sans-serif;
+    /* Any additional styles for the text */
+}
