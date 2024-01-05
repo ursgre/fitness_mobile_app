@@ -3,7 +3,7 @@ const ctxYearly = document.getElementById('yearlyWeightChart').getContext('2d');
 
 // Dane do wykresu rocznego
 const dataYearly = {
-    labels: ['Miesiąc 1', 'Miesiąc 2', 'Miesiąc 3', 'Miesiąc 4', 'Miesiąc 5', 'Miesiąc 6', 'Miesiąc 7', 'Miesiąc 8', 'Miesiąc 9', 'Miesiąc 10', 'Miesiąc 11', 'Miesiąc 12'],
+    labels: ['Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień'],
     datasets: [{
         label: 'Waga',
         data: [105, 102, 100, 97, 92, 88, 85, 80, 75, 70, 68, 65], // Dane wagi dla kolejnych miesięcy
